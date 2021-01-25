@@ -1,0 +1,7 @@
+.Rm__calculator {
+  /* background-color: #242424; */
+  display: flex;
+}
+.Rm__calculator .Rm__span {
+  display: block;
+}
