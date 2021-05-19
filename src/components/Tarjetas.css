@@ -1,0 +1,116 @@
+body .container .card1 {
+  z-index: 2;
+}
+
+body .container .card {
+  z-index: 1;
+  position: absolute;
+  margin-left: 20px;
+  transition: all 0.5s;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+body .container .card:hover {
+  cursor: pointer;
+  transform: translateX(20px);
+}
+
+.animateCard {
+  animation: 1s ease-in-out animateCard;
+  animation-fill-mode: forwards;
+}
+.cardBack {
+  animation: 1s ease-in-out cardBack;
+}
+
+@keyframes animateCard {
+  0% {
+    transform: translate(20px, 0px);
+  }
+  50% {
+    transform: translate(240px, 0px);
+  }
+  51% {
+    z-index: 1;
+  }
+  52% {
+    transorm: translate(240px, 0px);
+    z-index: 3;
+  }
+  100% {
+    transform: translate(100px, 0px);
+    z-index: 3;
+  }
+}
+
+@keyframes cardBack {
+  0% {
+    transform: translate(100px, 0px);
+    z-index: 3;
+  }
+  50% {
+    transform: translate(240px, 0px);
+    z-index: 3;
+  }
+  51% {
+    transform: translate(240px, 0px);
+    z-index: 1;
+  }
+  52% {
+    transform: translate(240px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+@-moz-document url-prefix() {
+  body .container .card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  body .container .card:hover {
+    cursor: pointer;
+    transform: translate(-40%, -50%);
+  }
+  @keyframes animateCard {
+    0% {
+      transform: translate(-40%, -50%);
+    }
+    50% {
+      transform: translate(52%, -50%);
+    }
+    51% {
+      z-index: 1;
+    }
+    52% {
+      transorm: translate(52%, -50%);
+      z-index: 3;
+    }
+    100% {
+      transform: translate(-8%, -50%);
+      z-index: 3;
+    }
+  }
+  @keyframes cardBack {
+    0% {
+      transform: translate(-8%, -50%);
+      z-index: 3;
+    }
+    50% {
+      transform: translate(52%, -50%);
+      z-index: 3;
+    }
+    51% {
+      transform: translate(52%, -50%);
+      z-index: 1;
+    }
+    52% {
+      transform: translate(52%, -50%);
+    }
+    100% {
+      transform: translate(-50%, -50%);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+/* Code that does the work */
+.div11 {
+  width: 100vw;
+  height: 100vh;
+}
+.xd1 {
+  position: relative;
+}
+.div-one {
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  width: 100vw;
+  height: 100vh;
+}
+
+.div-two {
+  -webkit-clip-path: polygon(100vw 0, 0% 100%, 100vw 100vh);
+  clip-path: polygon(100vw 0, 0% 100vh, 100vw 100vh);
+  width: 100vw;
+  height: 100vh;
+}
+.xd {
+  position: absolute;
+}

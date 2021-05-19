@@ -12,7 +12,8 @@ function FaQ() {
               Preguntas Frecuentes
             </h1>
             <p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto dark:text-gray-500 '>
-              Las preguntas más comunes sobre cómo funciona nuestro negocio y..
+              Las preguntas más comunes sobre cómo funciona nuestro negocio,
+              deporte y entrenamiento en general.
             </p>
           </div>
           <div className='flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2'>
@@ -112,9 +113,9 @@ function FaQ() {
                 </summary>
                 <div className='flex flex-wrap rounded  bg-gray-300 dark:bg-gray-600'>
                   <span className='ml-1.5 mb-1 mr-1.5 dark:text-gray-400'>
-                    Laboris qui labore cillum culpa in sunt quis sint veniam.
-                    Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                    minim velit nostrud pariatur culpa magna in aute.
+                    Completamente si, se puede ganar masa muscular con
+                    calistenia y trabajar a la perfección la hipertrofia, además
+                    de un control completo de tu cuerpo.
                   </span>
                 </div>
               </details>

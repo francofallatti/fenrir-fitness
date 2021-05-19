@@ -1,0 +1,44 @@
+nav {
+  font-family: 'Bangers', cursive;
+}
+nav div.relative:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+.item_color {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+.mobile_item_color {
+  background-color: #242222;
+}
+
+/* ----------------------------- */
+.nav__dropdown {
+  transition: 1.4s ease-in-out;
+  text-align: center;
+}
+
+/* .nav__dropdown-icon {
+  margin-left: auto;
+  transition: 0.4s;
+} */
+
+/* Show dropdown collapse */
+/* .nav__dropdown:hover {
+  max-height: 100rem;
+} */
+
+/* Rotate icon arrow */
+/* .nav__dropdown:hover .nav__dropdown-icon {
+  transform: rotate(180deg);
+} */
+
+/*===== Show menu =====*/
+.show-menu {
+  left: 0;
+}
+
+/*===== Active link =====*/
+.active {
+  color: var(--first-color);
+}

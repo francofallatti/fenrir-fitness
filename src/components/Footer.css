@@ -1,0 +1,19 @@
+.footer-wave-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-top: -126px;
+  z-index: 1;
+}
+.footer-wave-container svg {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.path-wave {
+  stroke: none;
+  fill: rgba(156, 163, 175);
+}

@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'AdamLight';
+  src: local('AdamLight'), url('./fonts/Adam-Light.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'AdamBold';
+  src: local('AdamBold'), url('./fonts/Adam-Bold.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'gothambold';
+  src: local('gothambold') url('./fonts/gotham-bold.otf') format('opentype');
+}
 :root {
   --azul-fondo: #303041;
   --azul-header: #19384f;
@@ -7,4 +21,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+h1 {
+  font-family: 'AdamBold';
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'gothambold';
 }
